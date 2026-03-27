@@ -98,7 +98,7 @@ slider_r.on_changed(update)
 slider_lambda.on_changed(update)
 
 # triggering the update for preset cosmologies
-btn_matter.on_clicked(lambda event: set_cosmology("Matter Dominated"))
+btn_matter.on_clicked(lambda events: set_cosmology("Matter Dominated"))
 btn_radiation.on_clicked(lambda event: set_cosmology("Radiation Dominated"))
 btn_lambda.on_clicked(lambda event: set_cosmology("Dark Energy Dominated"))
 btn_lCDM.on_clicked(lambda event: set_cosmology("Lambda-CDM"))
